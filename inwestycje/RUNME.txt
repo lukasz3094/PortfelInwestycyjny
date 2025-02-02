@@ -1,0 +1,4 @@
+D:
+cd D:\projects\PortfelInwestycyjny\inwestycje
+
+php artisan serve
