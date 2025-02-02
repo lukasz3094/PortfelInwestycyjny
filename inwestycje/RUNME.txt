@@ -1,4 +1,22 @@
+############## Pierwsze uruchomienie:
+
+- zainstaluj php i composer
+- composer global require laravel/installer (install laravel)
+- php artisan migrate (baza, wcześniej sprawdź baze)
+- zainstaluj nodejs
+- npm install && npm run dev
+
+################################### START ###################################################
+
 D:
 cd D:\projects\PortfelInwestycyjny\inwestycje
 
+npm run dev
+
 php artisan serve
+
+############# conf baza + migracja
+php artisan migrate
+############# jeżeli sypie
+php artisan config:clear
+php artisan cache:clear

@@ -1,3 +1,4 @@
 1. Utworzenie projektu:
+- zainstaluj php i composer
 - composer create-project --prefer-dist laravel/laravel inwestycje
-
+- zainstaluj nodejs
