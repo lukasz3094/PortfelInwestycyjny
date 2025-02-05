@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .hero {
+        @apply bg-cover bg-center h-screen;
+    }
+
+    .navbar {
+        @apply fixed top-0 w-full z-10 bg-white shadow-md;
+    }
+
+    .glass-effect {
+        @apply p-8 rounded-lg;
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+}
